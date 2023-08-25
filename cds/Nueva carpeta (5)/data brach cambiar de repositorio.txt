@@ -1,0 +1,642 @@
+
+HP@DESKTOP-TPV64IR MINGW64 ~
+$ cd /c/
+
+HP@DESKTOP-TPV64IR MINGW64 /c
+$
+
+HP@DESKTOP-TPV64IR MINGW64 /c
+$ cd NPM
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM
+$ git add ..
+fatal: not a git repository (or any of the parent directories): .git
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM
+$ git init
+Initialized empty Git repository in C:/NPM/.git/
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM (master)
+$ git add ..
+fatal: ..: '..' is outside repository at 'C:/NPM'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM (master)
+$ git config --global user.name
+luis gustavo jaita gutierrez
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM (master)
+$ git status -s
+?? app4/
+?? react/
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM (master)
+$ git add .
+warning: in the working copy of 'app4/apps4/.eslintrc.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app4/apps4/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app4/apps4/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app4/apps4/next.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app4/apps4/package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app4/apps4/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app4/apps4/postcss.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app4/apps4/src/app/globals.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app4/apps4/src/app/layout.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app4/apps4/src/app/page.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app4/apps4/tailwind.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app4/apps4/tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: adding embedded git repository: react/app2
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> react/app2
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached react/app2
+hint:
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: react/app3/apps3
+warning: in the working copy of 'react/app3/package-lock.json', LF will be replaced by CRLF the next time Git touches it
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM (master)
+$ git add ..
+fatal: ..: '..' is outside repository at 'C:/NPM'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM (master)
+$ ls
+app4/  react/
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM (master)
+$ git commit -m "primera fase"
+[master (root-commit) 685fe6f] primera fase
+ 18 files changed, 1242 insertions(+)
+ create mode 100644 app4/apps4/.eslintrc.json
+ create mode 100644 app4/apps4/.gitignore
+ create mode 100644 app4/apps4/README.md
+ create mode 100644 app4/apps4/next.config.js
+ create mode 100644 app4/apps4/package-lock.json
+ create mode 100644 app4/apps4/package.json
+ create mode 100644 app4/apps4/postcss.config.js
+ create mode 100644 app4/apps4/public/next.svg
+ create mode 100644 app4/apps4/public/vercel.svg
+ create mode 100644 app4/apps4/src/app/favicon.ico
+ create mode 100644 app4/apps4/src/app/globals.css
+ create mode 100644 app4/apps4/src/app/layout.tsx
+ create mode 100644 app4/apps4/src/app/page.tsx
+ create mode 100644 app4/apps4/tailwind.config.js
+ create mode 100644 app4/apps4/tsconfig.json
+ create mode 160000 react/app2
+ create mode 160000 react/app3/apps3
+ create mode 100644 react/app3/package-lock.json
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM (master)
+$ git remote add origin https://github.com/luisgustavojtagtrr/NPM1.git
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM (master)
+$ git push -u origin master
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (25/25), 22.37 KiB | 954.00 KiB/s, done.
+Total 25 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/luisgustavojtagtrr/NPM1.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM (master)
+$ git config --global init.defaultBranch trunk
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM (master)
+$ cd ..
+
+HP@DESKTOP-TPV64IR MINGW64 /c
+$ cd NPM2
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2
+$ git add ..
+fatal: not a git repository (or any of the parent directories): .git
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2
+$ ls
+TSX2/  jsapp/  tsx6/  tsx8/  tsx9API/
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2
+$ git init
+Initialized empty Git repository in C:/NPM2/.git/
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk)
+$ git commit -m "ini2"
+On branch trunk
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TSX2/
+        jsapp/
+        tsx6/
+        tsx8/
+        tsx9API/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk)
+$ git commit -m "ini2"
+On branch trunk
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TSX2/
+        jsapp/
+        tsx6/
+        tsx8/
+        tsx9API/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk)
+$ ls
+TSX2/  jsapp/  tsx6/  tsx8/  tsx9API/
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk)
+$ git add .
+warning: adding embedded git repository: TSX2/npx2
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> TSX2/npx2
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached TSX2/npx2
+hint:
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: jsapp/tsxapp1
+warning: adding embedded git repository: tsx9API/jsx9
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk)
+$ git add ..
+fatal: ..: '..' is outside repository at 'C:/NPM2'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk)
+$ git commit -m "dat"
+[trunk (root-commit) 2c5bdc6] dat
+ 46 files changed, 8389 insertions(+)
+ create mode 160000 TSX2/npx2
+ create mode 160000 jsapp/tsxapp1
+ create mode 100644 tsx6/jsx6/src/styles/Home.module.css
+ create mode 100644 tsx8/jsx8/.eslintrc.json
+ create mode 100644 tsx8/jsx8/.gitignore
+ create mode 100644 tsx8/jsx8/README.md
+ create mode 100644 tsx8/jsx8/next.config.js
+ create mode 100644 tsx8/jsx8/package-lock.json
+ create mode 100644 tsx8/jsx8/package.json
+ create mode 100644 tsx8/jsx8/public/favicon.ico
+ create mode 100644 tsx8/jsx8/public/images/Imag4.jpg
+ create mode 100644 tsx8/jsx8/public/images/Imag5.png
+ create mode 100644 tsx8/jsx8/public/images/Imag6.png
+ create mode 100644 tsx8/jsx8/public/images/image-6.png
+ create mode 100644 tsx8/jsx8/public/images/stain-1.svg
+ create mode 100644 tsx8/jsx8/public/images2/Logo.png
+ create mode 100644 tsx8/jsx8/public/images3/pros.svg
+ create mode 100644 tsx8/jsx8/public/images3/pros2.svg
+ create mode 100644 tsx8/jsx8/public/images3/pros3.svg
+ create mode 100644 tsx8/jsx8/public/images3/pros4.svg
+ create mode 100644 tsx8/jsx8/public/next.svg
+ create mode 100644 tsx8/jsx8/public/thirteen.svg
+ create mode 100644 tsx8/jsx8/public/vercel.svg
+ create mode 100644 tsx8/jsx8/src/Carrusel/Img.tsx
+ create mode 100644 tsx8/jsx8/src/Carrusel/carrusel.tsx
+ create mode 100644 tsx8/jsx8/src/Logo/Logo.tsx
+ create mode 100644 tsx8/jsx8/src/Logo/Logo2.tsx
+ create mode 100644 tsx8/jsx8/src/Logo/Logo3.tsx
+ create mode 100644 tsx8/jsx8/src/Parrafo/Images.tsx
+ create mode 100644 tsx8/jsx8/src/Parrafo/Pros.tsx
+ create mode 100644 tsx8/jsx8/src/Parrafo/Pros2.tsx
+ create mode 100644 tsx8/jsx8/src/Parrafo/nav.tsx
+ create mode 100644 tsx8/jsx8/src/Parrafo/parrafo.tsx
+ create mode 100644 tsx8/jsx8/src/pages/_app.tsx
+ create mode 100644 tsx8/jsx8/src/pages/_document.tsx
+ create mode 100644 tsx8/jsx8/src/pages/api/hello.ts
+ create mode 100644 tsx8/jsx8/src/pages/components/ItemGrid.tsx
+ create mode 100644 tsx8/jsx8/src/pages/components/Logo.tsx
+ create mode 100644 tsx8/jsx8/src/pages/components/carrusel.tsx
+ create mode 100644 tsx8/jsx8/src/pages/components/stains/Stains.tsx
+ create mode 100644 tsx8/jsx8/src/pages/index.tsx
+ create mode 100644 tsx8/jsx8/src/styles/Home.module.css
+ create mode 100644 tsx8/jsx8/src/styles/globals.css
+ create mode 100644 tsx8/jsx8/src/styles/referencias.css
+ create mode 100644 tsx8/jsx8/tsconfig.json
+ create mode 160000 tsx9API/jsx9
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk)
+$ git remote add origin https://github.com/luisgustavojtagtrr/npm2.git
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk)
+$ git push -u origin trunk
+fatal: unable to access 'https://github.com/luisgustavojtagtrr/npm2.git/': Could not resolve host: github.com
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk)
+$ git push -u origin trunk
+fatal: unable to access 'https://github.com/luisgustavojtagtrr/npm2.git/': Could not resolve host: github.com
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk)
+$ git remote add origin https://github.com/luisgustavojtagtrr/npm2.git
+error: remote origin already exists.
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk)
+$ git remote -v
+origin  https://github.com/luisgustavojtagtrr/npm2.git (fetch)
+origin  https://github.com/luisgustavojtagtrr/npm2.git (push)
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk)
+$ git add ..
+fatal: ..: '..' is outside repository at 'C:/NPM2'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk)
+$ ls
+TSX2/  jsapp/  tsx6/  tsx8/  tsx9API/
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk)
+$ git push -u origin trunk
+Enumerating objects: 67, done.
+Counting objects: 100% (67/67), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (53/53), done.
+Writing objects: 100% (67/67), 2.71 MiB | 760.00 KiB/s, done.
+Total 67 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/luisgustavojtagtrr/npm2.git
+ * [new branch]      trunk -> trunk
+branch 'trunk' set up to track 'origin/trunk'.
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk)
+$ git branch -m "trunk2"
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk2)
+$ cd ..
+
+HP@DESKTOP-TPV64IR MINGW64 /c
+$ cd NPM3
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main)
+$ git config --global init.defaultBranch trunk
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main)
+$ git add .
+error: 'reposit/' does not have a commit checked out
+fatal: adding files failed
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main)
+$ git init
+Reinitialized existing Git repository in C:/NPM3/.git/
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main)
+$ git add ..
+fatal: ..: '..' is outside repository at 'C:/NPM3'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main)
+$ ls
+reposit/  sis-313-2023-g1/  tsx/  tsx2/  tsx3/  tsx4/  tsx5/  tsx6/  tsx7/
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main)
+$ git remote add origin https://github.com/luisgustavojtagtrr/NPM3.git
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main)
+$ git remote -v
+origin  https://github.com/luisgustavojtagtrr/NPM3.git (fetch)
+origin  https://github.com/luisgustavojtagtrr/NPM3.git (push)
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/luisgustavojtagtrr/NPM3.git'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main)
+$ ls
+reposit/  sis-313-2023-g1/  tsx/  tsx2/  tsx3/  tsx4/  tsx5/  tsx6/  tsx7/
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main)
+$ git remote -s
+error: unknown switch `s'
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename [--[no-]progress] <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main)
+$ git add .
+error: 'reposit/' does not have a commit checked out
+fatal: adding files failed
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main)
+$ git add ..
+fatal: ..: '..' is outside repository at 'C:/NPM3'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/luisgustavojtagtrr/NPM3.git'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main)
+$ git branch -m "main2"
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git push -u origin main2
+error: src refspec main2 does not match any
+error: failed to push some refs to 'https://github.com/luisgustavojtagtrr/NPM3.git'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git init
+Reinitialized existing Git repository in C:/NPM3/.git/
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git log
+fatal: your current branch 'main2' does not have any commits yet
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git checkout main2
+error: pathspec 'main2' did not match any file(s) known to git
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git branch -M main2
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git push -u origin main2
+error: src refspec main2 does not match any
+error: failed to push some refs to 'https://github.com/luisgustavojtagtrr/NPM3.git'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git branch
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git branch -m
+fatal: branch name required
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git log -oneline
+fatal: your current branch 'main2' does not have any commits yet
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git add .
+error: 'reposit/' does not have a commit checked out
+fatal: adding files failed
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git commit -m "one 3"
+On branch main2
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        reposit/
+        sis-313-2023-g1/
+        tsx/
+        tsx2/
+        tsx3/
+        tsx4/
+        tsx5/
+        tsx6/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git add .
+error: 'reposit/' does not have a commit checked out
+fatal: adding files failed
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git add ..
+fatal: ..: '..' is outside repository at 'C:/NPM3'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git log --oneline
+fatal: your current branch 'main2' does not have any commits yet
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ cd ..
+
+HP@DESKTOP-TPV64IR MINGW64 /c
+$ cd NPM3
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git branch -d main2
+error: Cannot delete branch 'main2' checked out at 'C:/NPM3'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ cd ..
+
+HP@DESKTOP-TPV64IR MINGW64 /c
+$ cd NPM3
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git branch -d main2
+error: Cannot delete branch 'main2' checked out at 'C:/NPM3'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git branch main
+fatal: not a valid object name: 'main2'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ ls
+reposit/  sis-313-2023-g1/  tsx/  tsx2/  tsx3/  tsx4/  tsx5/  tsx6/  tsx7/
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git remote -v
+origin  https://github.com/luisgustavojtagtrr/NPM3.git (fetch)
+origin  https://github.com/luisgustavojtagtrr/NPM3.git (push)
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git status -s
+?? reposit/
+?? sis-313-2023-g1/
+?? tsx/
+?? tsx2/
+?? tsx3/
+?? tsx4/
+?? tsx5/
+?? tsx6/
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git add .
+error: 'reposit/' does not have a commit checked out
+fatal: adding files failed
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git pull main2
+fatal: 'main2' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ cd ..
+
+HP@DESKTOP-TPV64IR MINGW64 /c
+$ cd NPM2
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk2)
+$ git branch -d trunk2
+error: Cannot delete branch 'trunk2' checked out at 'C:/NPM2'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk2)
+$ git branch -d trunk
+error: branch 'trunk' not found.
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM2 (trunk2)
+$ cd ..
+
+HP@DESKTOP-TPV64IR MINGW64 /c
+$ cd NPM
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM (master)
+$ git branch -d main
+error: branch 'main' not found.
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM (master)
+$ cd ..
+
+HP@DESKTOP-TPV64IR MINGW64 /c
+$ cd NPM3
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git push myOrigin main2
+error: src refspec main2 does not match any
+error: failed to push some refs to 'myOrigin'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git remote rm origin
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git commit -m "inic"
+On branch main2
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        reposit/
+        sis-313-2023-g1/
+        tsx/
+        tsx2/
+        tsx3/
+        tsx4/
+        tsx5/
+        tsx6/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git add ..
+fatal: ..: '..' is outside repository at 'C:/NPM3'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git add .
+error: 'reposit/' does not have a commit checked out
+fatal: adding files failed
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$  git config --global init.defaultBranch main2
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git init
+Reinitialized existing Git repository in C:/NPM3/.git/
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$  git config --global init.defaultBranch trunk
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git branch
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git branch -M
+fatal: branch name required
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git add .
+error: 'reposit/' does not have a commit checked out
+fatal: adding files failed
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git checked trunk
+git: 'checked' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git checkout trunk
+error: pathspec 'trunk' did not match any file(s) known to git
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$  git config --global init.defaultBranch main2
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ cd ..
+
+HP@DESKTOP-TPV64IR MINGW64 /c
+$ cd NPM3
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git branch -d main2
+error: Cannot delete branch 'main2' checked out at 'C:/NPM3'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git branch -d "main2"
+error: Cannot delete branch 'main2' checked out at 'C:/NPM3'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git branch -d 'main2'
+error: Cannot delete branch 'main2' checked out at 'C:/NPM3'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git branch -d localBranchName
+error: branch 'localBranchName' not found.
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$ git branch -d main2
+error: Cannot delete branch 'main2' checked out at 'C:/NPM3'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM3 (main2)
+$

@@ -1,0 +1,76 @@
+
+HP@DESKTOP-TPV64IR MINGW64 ~
+$ cd /c/NPM7
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM7 (main2)
+$ git add .
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM7 (main2)
+$ git commit "s"
+error: pathspec 's' did not match any file(s) known to git
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM7 (main2)
+$ git commit -m "s"
+On branch main2
+Your branch is up to date with 'origin/main2'.
+
+nothing to commit, working tree clean
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM7 (main2)
+$ git log
+commit 53b47d93fb29abd2e47e3b1ce9313cec1a043265 (HEAD -> main2, origin/main2)
+Author: luis gustavo jaita gutierrez <luisnarutomenma@gmail.com>
+Date:   Fri Aug 18 02:35:18 2023 +0200
+
+    tre
+
+commit f314f013ffa06f2df6fdf482af553d851f9414e4
+Author: luis gustavo jaita gutierrez <luisnarutomenma@gmail.com>
+Date:   Fri Aug 18 02:25:37 2023 +0200
+
+    date
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM7 (main2)
+$ git remote add origin https://github.com/luisgustavojtagtrr/npm-7.git
+error: remote origin already exists.
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM7 (main2)
+$ git remote -v
+origin  https://github.com/luisgustavojtagtrr/NPM7.git (fetch)
+origin  https://github.com/luisgustavojtagtrr/NPM7.git (push)
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM7 (main2)
+$ git status
+On branch main2
+Your branch is up to date with 'origin/main2'.
+
+nothing to commit, working tree clean
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM7 (main2)
+$ ls
+EXAMEN-L.G.J.G/  LGJGEVAL2DA/
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM7 (main2)
+$ git status -s
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM7 (main2)
+$ git@github.com:OWNER/REPOSITORY.git
+bash: git@github.com:OWNER/REPOSITORY.git: No such file or directory
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM7 (main2)
+$ git remote rm destination
+error: No such remote: 'destination'
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM7 (main2)
+$ git remote rename origin destination
+Renaming remote references: 100% (1/1), done.
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM7 (main2)
+$ git init
+Reinitialized existing Git repository in C:/NPM7/.git/
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM7 (main2)
+$ git remote add origin https://github.com/luisgustavojtagtrr/npm-7.git
+
+HP@DESKTOP-TPV64IR MINGW64 /c/NPM7 (main2)
+$
